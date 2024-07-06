@@ -14,6 +14,7 @@ function App() {
       element: <RootLayout/>,
       children: [
         {
+          
           index: true,
           element: <LandingPage/>,
         },

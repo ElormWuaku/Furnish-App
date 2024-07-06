@@ -22,33 +22,29 @@ const K = {
 
     SERVICES: [
         {
-            title: "Amazing Deal",
+            icon: "Handshake",
+            title: "Amazing Deals",
             description: "Far far away, behind the word mountains, far from the countries Vokalia.",
-            // Icon: <Handshake/>,
-            bgColor: "#F5EBEB",
-            iconBg: "#CB9696",
-        },
-        {
+            bgColor: "#F9D5E5"
+          },
+          {
+            icon: "Truck",
             title: "Quality Furniture",
             description: "Far far away, behind the word mountains, far from the countries Vokalia.",
-            // Icon: <Handshake/>,
-            bgColor: "#DCEBDD",
-            iconBg: "#CB9696",
-        },
-        {
+            bgColor: "#E2F0CB"
+          },
+          {
+            icon: "Sofa",
             title: "Modern Design",
             description: "Far far away, behind the word mountains, far from the countries Vokalia.",
-            // Icon: <Handshake/>,
-            bgColor: "#F5EFD8",
-            iconBg: "#CB9696",
-        },
-        {
+            bgColor: "#F9E2AF"
+          },
+          {
+            icon: "HeadphonesIcon",
             title: "Best Support",
             description: "Far far away, behind the word mountains, far from the countries Vokalia.",
-            // Icon: <Handshake/>,
-            bgColor: "#F4E6D8",
-            iconBg: "#CB9696",
-        }
+            bgColor: "#FFDAB9"
+          }
     ]
 }
 

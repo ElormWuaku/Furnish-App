@@ -1,5 +1,4 @@
 import Navbar from "../../components/navbar"
-
 import About from "./components/about"
 import Collection from "./components/collection"
 import Hero from "./components/hero"
