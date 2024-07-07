@@ -2,9 +2,9 @@ import Navbar from "../../components/navbar"
 import About from "./components/about"
 import Collection from "./components/collection"
 import Hero from "./components/hero"
-import Reviews from "./components/reviews"
+import Production from "./components/production"
 import Services from "./components/services"
-import Testimonials from "./components/testimonials"
+
 
 const LandingPage = () => {
   return (
@@ -13,9 +13,7 @@ const LandingPage = () => {
       <Services/>
       <About/>
       <Collection/>
-      <Reviews/>
-      <Testimonials/>
-
+      <Production/>
     </div>
   )
 }

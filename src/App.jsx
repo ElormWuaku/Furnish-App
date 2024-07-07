@@ -1,10 +1,10 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import LandingPage from './pages/landing'
-import AboutUs from './pages/about'
-import Collection from './pages/collection'
+import About from './pages/landing/components/about'
 import ContactUs from './pages/contact-us'
 import RootLayout from './layouts/rootLayout'
+import Collection from './pages/landing/components/collection'
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         },
         {
           path: "about-us",
-        element: <AboutUs/>,
+        element: <About/>,
         },
         {
           path: "collection",
