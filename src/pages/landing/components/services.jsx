@@ -1,23 +1,6 @@
 import { Handshake, Truck, Sofa, HeadphonesIcon } from "lucide-react"
 import K from "../../../constants"
 
-// const Services = () => {
-//   return (
-//     <div className="grid grid-cols-4 gap-x-4 py-2 w-screen pb-16 h-8">
-//       {
-//         K.SERVICES.map(
-//           (service, index) => {
-//             return <div key={index} className={``} style={{backgroundColor: service.bgColor}}>
-//               <span><Handshake /></span>
-//               <h3>{service.title}</h3>
-//               <p>{service.description}</p>
-//             </div>
-//           }
-//         )
-//       }
-//     </div>
-//   )
-// }
 
 const iconMap = {
   Handshake: Handshake,
@@ -36,7 +19,7 @@ const Services = () => {
             <div 
               key={index} 
               className="p-6 rounded-lg text-center"
-              style={{ backgroundColor: `${service.bgColor}` }} // 30 is for 30% opacity
+              style={{ backgroundColor: `${service.bgColor}` }} 
             >
               <div 
                 className="w-12 h-12 mx-auto mb-4 rounded-full flex items-center justify-center"
