@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import LandingPage from './pages/landing'
 import About from './pages/landing/components/about'
-import ContactUs from './pages/contact-us'
+import ContactUs from './pages/ContactUs/index'
 import RootLayout from './layouts/rootLayout'
 import Collection from './pages/landing/components/collection'
 
