@@ -21,7 +21,7 @@ const About = () => {
           <p className="text-gray-600 mb-6">
             Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
           </p>
-          <button className="bg-orange-500 text-white py-3 px-6 rounded-full flex items-center hover:bg-orange-600 transition duration-300">
+          <button className="bg-[#C2B931] text-white py-3 px-6 rounded-full flex items-center hover:bg-[#C2B931] transition duration-300">
             <PlayCircle className="mr-2" />
             Watch Video
           </button>
